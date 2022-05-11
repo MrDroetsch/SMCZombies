@@ -34,6 +34,7 @@ public class KillListener implements Listener {
 
         SQLiteZombies.setZombies(killer.getName(), killedZombies);
 
+        // Action-bar
         killer.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent("§7Zombie kills: §c" + killedZombies));
 
     }

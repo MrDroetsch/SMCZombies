@@ -23,7 +23,6 @@ public final class Zombies extends JavaPlugin {
         // Commands
         getCommand("zombiekills").setExecutor(new ZombieKills());
 
-        // Action-Bar
     }
 
     @Override
