@@ -1,0 +1,8 @@
+name: Zombies
+version: '${project.version}'
+main: sorcemczombies.Zombies
+api-version: 1.18
+authors: [ BunnyKick ]
+
+commands:
+  zombiekills:
