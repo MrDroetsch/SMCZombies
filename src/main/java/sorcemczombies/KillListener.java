@@ -22,8 +22,6 @@ public class KillListener implements Listener {
     public void onEntityDeath(EntityDeathEvent event) {
         LivingEntity entity = event.getEntity();
 
-        System.out.println(entity.getType());
-
         if(entity.getType() != EntityType.ZOMBIE) return;
 
         Player killer = entity.getKiller();
